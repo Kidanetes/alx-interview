@@ -5,6 +5,8 @@
 def minOperations(n):
     """this function returns the minmum opration to
     reach n characters"""
+    if n <= 1:
+        return 0
     list1 = [1]
     n = n - 1
     i = 0
